@@ -50,7 +50,11 @@ derby-i18n adds a few view helpers for you to use, including:
 	Returns the translation for the given key. For example, to display the published_on
 	key in the above locale file, you would do `{{t("article.published_on")}}`.
 
-	Support is planned for pluralization and interpolation in the near future.
+	Support is planned for (pluralization) and interpolation in the near future.
+
+- 	`t(key, count)`
+
+	This is used for plurals. `count` is a number, or a function call that returns a number. For example `length(_comments)`.
 
 -   `localizedPath(path)`
 
@@ -69,6 +73,17 @@ model.set('_i18n', {
 
 The locale attribute includes the region if it is supported, otherwise just the language. The namespace is just the name of your app (`blog` in the above example).
 
+
+## Plural support
+
+Example JSON:
+
+```javascript
+{
+	"comment_count": "__count__ comment"
+	"comment_count_plural": "__count__ comments"
+}
+```
 
 ## Options
 

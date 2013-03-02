@@ -54,7 +54,7 @@ derby-i18n adds a few view helpers for you to use, including:
 
 - 	`t(key, count)`
 
-	This is used for plurals. `count` is a number, or a function call that returns a number. For example `length(_comments)`.
+	This is used for plurals. `count` is a number, or a function call that returns a number. For example `_comments.length`.
 
 -   `localizedPath(path)`
 

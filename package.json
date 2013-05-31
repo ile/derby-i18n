@@ -16,7 +16,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "derby": ">= 0.3.13"
+    "derby": "*"
   },
   "devDependencies": {},
   "scripts": {

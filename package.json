@@ -1,11 +1,11 @@
 {
-  "author": "James Nelson <james@numbat.com.au>",
+  "author": "Edmond Leung <edmond.leung@untwine.co>",
   "name": "derby-i18n",
-  "description": "simple i18n support for derby",
+  "description": "Simple i18n support for Derby",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jamesknelson/derby-i18n.git"
+    "url": "git://github.com/untwine/derby-i18n.git"
   },
   "private": false,
   "main": "lib/index",
@@ -13,10 +13,10 @@
     "lib": "lib"
   },
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "dependencies": {
-    "derby": ">= 0.3.13"
+    "derby": ">= 0.6"
   },
   "devDependencies": {},
   "scripts": {

@@ -2,7 +2,7 @@
   "author": "James Nelson <james@numbat.com.au>",
   "name": "derby-i18n",
   "description": "Simple i18n support for Derby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/jamesknelson/derby-i18n.git"
@@ -16,7 +16,6 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "derby": ">= 0.6"
   },
   "devDependencies": {},
   "scripts": {

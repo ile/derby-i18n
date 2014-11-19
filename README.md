@@ -1,4 +1,4 @@
-# derby-i18n
+# k-i18n
 
 Simple filesystem-based i18n support for [derby](http://derbyjs.com), a node.js MVC framework. It is planned to support interpolation and plurals in the near future.
 
@@ -6,7 +6,7 @@ Simple filesystem-based i18n support for [derby](http://derbyjs.com), a node.js 
 
 #### Install in your app directory
 
-`npm install derby-i18n`
+`npm install k-i18n`
 
 #### Add locale files
 

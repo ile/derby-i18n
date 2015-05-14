@@ -1,8 +1,8 @@
 {
   "author": "James Nelson <james@numbat.com.au>",
   "name": "k-i18n",
-  "description": "Simple i18n support for Derby",
-  "version": "0.0.2",
+  "description": "Simple i18n support for Kantele",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/k-plugins/k-i18n.git"

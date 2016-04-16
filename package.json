@@ -1,29 +1,29 @@
 {
-	"author": "James Nelson <james@numbat.com.au>",
-	"name": "k-i18n",
-	"description": "Simple i18n support for Kantele",
-	"version": "0.0.5",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/k-plugins/k-i18n.git"
-	},
-	"private": false,
-	"main": "lib/index",
-	"directories": {
-		"lib": "lib"
-	},
-	"engines": {
-		"node": ">= 0.10.0"
-	},
-	"dependencies": {
-	},
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [
-		"i18n",
-		"derby"
-	],
-	"license": "MIT"
+  "author": "James Nelson <james@numbat.com.au>",
+  "name": "k-i18n",
+  "description": "Simple i18n support for Kantele",
+  "version": "0.0.6",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/k-plugins/k-i18n.git"
+  },
+  "private": false,
+  "main": "lib/index",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18n",
+    "derby"
+  ],
+  "license": "MIT"
 }
